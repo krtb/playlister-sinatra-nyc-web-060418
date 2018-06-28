@@ -6,4 +6,13 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
+
+
+  def slug(input_title)
+    splitter = input_title.chars
+    splitter.each do |char|
+
+    end
+  end
+
 end
